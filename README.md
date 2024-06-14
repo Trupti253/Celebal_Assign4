@@ -66,7 +66,9 @@ The script will preprocess the dataset, handle missing values, select important 
 Data Preprocessing: Handles missing values, scales numerical features, and creates interaction terms.
 Feature Selection: Uses RandomForestRegressor to select important features.
 Visualization: Generates heatmaps to visualize feature correlations and boxplots to examine the impact of missing values on the dependent variable.
-Contributing
+```
+## Contributing
+```bash
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 ```
 ## License

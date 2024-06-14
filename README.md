@@ -41,8 +41,8 @@ The dataset contains various columns related to renewable energy sources, financ
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/energy-dataset-analysis.git
-   cd energy-dataset-analysis
+   git clone https://github.com/yourusername/Celebal_Assign4.git
+   cd Assignment4
 Install the required Python packages:
 bash
 Copy code

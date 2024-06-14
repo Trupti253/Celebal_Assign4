@@ -43,37 +43,31 @@ The dataset contains various columns related to renewable energy sources, financ
    ```bash
    git clone https://github.com/yourusername/Celebal_Assign4.git
    cd Assignment4
-Install the required Python packages:
-bash
-Copy code
-pip install -r requirements.txt
-Usage
+   ```
+2. Install the required Python packages:
+   ```bash
+   Copy code
+   pip install -r requirements.txt
+   ```
+## Usage
+
 Ensure your dataset file energy_dataset_.csv is in the repository directory.
 
 Run the analysis script:
 
-bash
+```bash
 Copy code
 python analysis.py
 The script will preprocess the dataset, handle missing values, select important features, and generate visualizations, including a heatmap showing correlations between selected features.
+```
 
-Features
+## Features
+```bash
 Data Preprocessing: Handles missing values, scales numerical features, and creates interaction terms.
 Feature Selection: Uses RandomForestRegressor to select important features.
 Visualization: Generates heatmaps to visualize feature correlations and boxplots to examine the impact of missing values on the dependent variable.
 Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-License
+```
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-css
-Copy code
-
-Additionally, you will need to create a `requirements.txt` file for the necessary Python packages:
-
-```txt
-pandas
-seaborn
-matplotlib
-scikit-learn
